@@ -19,16 +19,47 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: coral;
+  background-color: rgb(140, 65, 38);
 }
 
 .App {
   padding: 1rem;
   box-sizing: border-box;
-  width: 61.8%;
+  width: 768px;
   margin: 0 auto;
   @media screen and (max-width: 768px) {
     width: 100%;
     margin: 0;
   }
+}
+
+a {
+  color: #fff;
+  &:visited {
+    color: #bbb;
+  }
+  &:hover {
+    color: #000;
+  }
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(228, 132, 98);
+  margin: 2rem auto;
+  width: 61.8%;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+.image {
+  border-radius: 6px 8px;
+  width: 100%;
+}
+
+iframe {
+  border-radius: 6px 8px;
 }
