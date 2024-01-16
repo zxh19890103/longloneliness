@@ -21,11 +21,11 @@ I am from the mainland of China, a man, 35 years old, still be single, a program
 
 ## The story of you
 
-If you will, you can write down your story of being lonely. Don't worry about your privacy, you don't need to say anything of your private information. I don't know who you are. And you don't know me either. 
+If you will, you can write down your story of being lonely. Don't worry about your privacy, you don't need to say anything of your private information. I don't know who you are, and you don't know me either. 
 
 But, let's be honest first.
 
-Check my email address bellow, and tell me your story by composing an email to me. I will publish it on the page, then every lonely one will read it and connect to you. That's help to ease your hurts.
+Check my email address bellow, and tell me your story by composing an email to me. I will publish it on the page, then every lonely one will read it and connect to you. That's help to ease your pain.
 
 ## Touch me
 
