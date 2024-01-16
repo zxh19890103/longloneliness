@@ -4,17 +4,27 @@
   src: url("/assets/fonts/aspergit/Aspergit.otf");
 }
 
+@font-face {
+  font-family: Kid;
+  font-variant-ligatures: common-ligatures;
+  src: url("/assets/fonts/kiddySans/kiddySans.otf");
+}
+
 html {
-  font-size: 18px;
-  font-family: Aspergit;
+  font-size: 21px;
+  font-family: Kid;
+  color: #fff;
 }
 
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   background-color: coral;
 }
 
 .App {
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 61.8%;
+  margin: 0 auto;
 }
