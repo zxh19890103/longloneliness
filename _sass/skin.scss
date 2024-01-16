@@ -10,6 +10,8 @@
   src: url("/assets/fonts/kiddySans/kiddySans.otf");
 }
 
+$bgcolor: rgb(140, 65, 38);
+
 html {
   font-size: 21px;
   font-family: Kid;
@@ -19,7 +21,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(140, 65, 38);
+  background-color: $bgcolor;
 }
 
 .App {
@@ -62,4 +64,8 @@ h2 {
 
 iframe {
   border-radius: 6px 8px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 56.22vw;
+  }
 }
