@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Aspergit;
+  font-variant-ligatures: common-ligatures;
+  src: url("/assets/fonts/aspergit/Aspergit.otf");
+}
+
+html {
+  font-size: 18px;
+  font-family: Aspergit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: coral;
+}
+
+.App {
+}
