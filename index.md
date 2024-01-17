@@ -49,7 +49,27 @@ My Email: zhangxinghai79@gmail.com
 
 ## Alternatively, fill the form to Tell Your Story
 
-(on going...)
+<form id="storyForm" class="story-form">
+    <div class="story-form-layout">
+        <div class="story-form-layout__item">
+            <div class="story-form-label"><label>Your Name</label></div>
+            <div class="story-form-control"><input placeholder="Identify who you are while sharing your story." /></div>
+        </div>
+        <div class="story-form-layout__item">
+            <div class="story-form-label"><label>Country From</label></div>
+            <div class="story-form-control"><input placeholder="Let's know where you are living." /></div>
+        </div>
+        <div class="story-form-layout__item">
+            <div class="story-form-label"><label>Your Story</label></div>
+            <div class="story-form-control"><textarea placeholder="Write down your story."></textarea></div>
+        </div>
+        <div class="story-form-buttons">
+            <button type="button">Share my story</button>
+        </div>
+    </div>
+</form>
+
+(I'm stil considering how to make this feature run, just wait...)
 
 ---
 
