@@ -19,9 +19,9 @@ What motivates me to do this is _I AM LONELY_.
 
 ## The story of me in brief
 
-I am from the mainland of China, a man, 35 years old, still be single, a programmer with 10 years' experience. I've gotten sick, a sick I'm shameful to tell my friends and family, since 4 years ago. I know I could be loved and welcomed by many of my colleagues and girls. However, the disease makes me afraid to socialize with them too much. So, I keep distance, both psychologically and physically, away from them to live in a solitude way. Few people can talk to me, and no girl can come to me to say hello.
+I am from the mainland of China, a man, 35 years old, still be single, a programmer with 10 years' experience. I've been sick, a sickness I'm ashamed to tell my friends and family, since 4 years ago. I know I could be loved and welcomed by many of my colleagues and girls. However, the disease makes me afraid to socialize with them too much. So, I keep a distance, both psychologically and physically, away from them to live in a solitude way. Few people can talk to me, and no girl will come to me to say hello, for which I feel sorry.
 
-(I am writing down more details...)
+(I'll keep writing down more details...)
 
 ## To know me more,
 

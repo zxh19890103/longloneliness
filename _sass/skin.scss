@@ -1,20 +1,12 @@
-@font-face {
-  font-family: Aspergit;
-  font-variant-ligatures: common-ligatures;
-  src: url("/assets/fonts/aspergit/Aspergit.otf");
-}
-
-@font-face {
-  font-family: Kid;
-  font-variant-ligatures: common-ligatures;
-  src: url("/assets/fonts/kiddySans/kiddySans.otf");
-}
+@import "./fonts";
 
 $bgcolor: rgb(140, 65, 38);
 
 html {
   font-size: 21px;
   font-family: Kid;
+  font-weight: bolder;
+  line-height: 1.3rem;
   color: #fff;
 }
 
@@ -33,6 +25,11 @@ body {
     width: 100%;
     margin: 0;
   }
+}
+
+.Copy {
+  padding: 3rem 0 1rem 0;
+  text-align: center;
 }
 
 a {
