@@ -39,50 +39,10 @@ Check my email address (<label>zhangxinghai79@gmail.com</label>), and tell me yo
 
 Keep in mind, you are not alone! At least, I am here with you.
 
-## What's your favorite song?
-
-Mine is ["Clocks"](https://www.youtube.com/watch?v=d020hcWA_Wg) by Coldplay.
-
 ## Share with me, anything. Yes, I'm hearing you, really!
 
 My Email: zhangxinghai79@gmail.com
 
 ## Alternatively, fill the form to Tell Your Story
 
-<form id="storyForm" class="story-form">
-    <div class="story-form-layout">
-        <div class="story-form-layout__item">
-            <div class="story-form-label"><label>Your Name</label></div>
-            <div class="story-form-control"><input placeholder="Identify who you are while sharing your story." /></div>
-        </div>
-        <div class="story-form-layout__item">
-            <div class="story-form-label"><label>Country From</label></div>
-            <div class="story-form-control"><input placeholder="Let's know where you are living." /></div>
-        </div>
-        <div class="story-form-layout__item">
-            <div class="story-form-label"><label>Your Story</label></div>
-            <div class="story-form-control"><textarea placeholder="Write down your story."></textarea></div>
-        </div>
-        <div class="story-form-buttons">
-            <button type="button">Share my story</button>
-        </div>
-    </div>
-</form>
-
-(I'm stil considering how to make this feature run, just wait...)
-
----
-
-## Videos I found that may help you understand it
-
-### 1. "How to Deal With Loneliness" by <a href="https://www.youtube.com/@DryCreekWranglerSchool" target="_blank">Dry Creek Wrangler School</a>
-
-<iframe width="724" height="407" src="https://www.youtube.com/embed/LDMY7qtOPiI?si=yFzYZLLOsYXbBKwJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### 2. "Loneliness" by <a href="https://www.youtube.com/@kurzgesagt" target="_blank">Kurzgesagt – In a Nutshell</a>
-
-<iframe width="724" height="407" src="https://www.youtube.com/embed/n3Xv_g3g-mA?si=QSSCEIpqDPU2Cq9_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### 3. "To Anyone Feeling Lonely" by <a href="https://www.youtube.com/@Psych2go" target="_blank">Psych2Go</a>
-
-<iframe width="724" height="407" src="https://www.youtube.com/embed/TWNL7EClClo?si=cYeA0-fMMtNGuUJ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="724" height="430" frameborder="none" src="http://stories.longloneliness.com/post-html.php?end=longloneliness&lang=en&post=landingpage"></iframe>
