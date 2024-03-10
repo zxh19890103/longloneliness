@@ -6,6 +6,7 @@
   <head>
     <meta charset="utf8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     {%- feed_meta -%} {%- seo -%}
     <meta
       name="viewport"
@@ -16,37 +17,20 @@
       type="image/x-icon"
       href="/assets/favicon/favicon.ico"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/assets/style.css" />
   </head>
 
   <body>
-    <div class="App">
-      <div class="Nav">
-        <nav>
-          <ul>
-            <li class="logo">
-              <a href="/">
-                <img
-                  width="32"
-                  height="32"
-                  src="/assets/favicon/android-chrome-512x512.png"
-                />
-              </a>
-            </li>
-            <li><a href="/">Welcome</a></li>
-            <li class="sep">|</li>
-            <li><a href="/videos">Videos</a></li>
-            <li class="sep">|</li>
-            <li><a href="/stories">Stories</a></li>
-            <li class="sep">|</li>
-            <li><a href="/write">Write</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="Content">
-        {{ content }}
-      </div>
+    <div class="App{% if page.flex %} Flex{% endif %}">
+      <div class="Nav">{% include nav.html %}</div>
+      <div class="Content">{{ content }}</div>
+      <div class="Copy">Copyright &copy; singhi 2024. All rights reserved.</div>
     </div>
-    <div class="Copy">Copyright &copy; singhi 2024. All rights reserved.</div>
   </body>
 </html>

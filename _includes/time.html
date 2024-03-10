@@ -1,0 +1,44 @@
+<script>
+  {
+    const $ = (selector) => document.querySelector(selector);
+
+    function second_passed() {
+      $(".clock").classList.remove("is-off");
+    }
+    setTimeout(second_passed, 2000);
+
+    $(".switcher").addEventListener("click", function (e) {
+      e.preventDefault();
+      $(".screen").classList.toggle("glitch");
+    });
+
+    var newDate = new Date();
+    newDate.setDate(newDate.getDate());
+
+    const tick = () => {
+      var hours = new Date().getHours();
+      var seconds = new Date().getSeconds();
+      var minutes = new Date().getMinutes();
+
+      var realTime =
+        (hours < 10 ? "0" : "") +
+        hours +
+        " : " +
+        (minutes < 10 ? "0" : "") +
+        minutes +
+        " : " +
+        (seconds < 10 ? "0" : "") +
+        seconds;
+
+      $(".time").innerHTML = realTime;
+      $(".time").setAttribute("data-time", realTime);
+    };
+
+    const loop = () => {
+      tick();
+      setTimeout(loop, 1000);
+    };
+
+    loop();
+  }
+</script>

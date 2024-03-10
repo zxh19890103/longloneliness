@@ -1,6 +1,7 @@
 title: the long loneliness
 description: i created this repo to share the feeling of loneliness for human beings. but, furthermore, i also hope one day a warm community would be formed to comfort the lonely hearts all around the world.
 version: 1.0.0
+host: 192.168.1.102
 
 plugins:
   - jekyll-feed

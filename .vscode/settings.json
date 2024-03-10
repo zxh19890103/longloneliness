@@ -1,4 +1,5 @@
 {
     "editor.fontFamily": "Wawati SC",
+    "workbench.colorTheme": "Atom One Dark",
     "editor.fontSize": 18
 }

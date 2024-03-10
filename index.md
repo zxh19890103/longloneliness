@@ -5,11 +5,58 @@ title: Welcome
 
 # The Long Loneliness
 
+## Firstly, I invited you to enjoy the famous song "Time" by Pink Floyd.
+
+_Tips: Click to pause or resume the music playing._
+
+<script>
+    var YtbControls = {
+        __playstart__ : performance.now(),
+        __playedSec: 0,
+        __onFrameLoaded: () => {
+        },
+        __onFrameClick : (event) => {
+            const mask = event.currentTarget;
+            const datas = mask.dataset;
+            const iframe= mask.previousElementSibling;
+
+            let autoPlay = datas['autoplay'];
+            autoPlay = autoPlay === '1' ? '0' : '1';
+
+            const offset = Number(datas["start"]);
+
+            datas['autoplay'] = autoPlay;
+
+            if (autoPlay === '0') {
+                const now = performance.now();
+                YtbControls.__playedSec += Math.ceil((now - YtbControls.__playstart__) / 1000);
+                YtbControls.__playstart__ = now;
+            }
+      
+            iframe.src = `https://www.youtube.com/embed/yl-Ms_ek-kE?si=jV1KTgHVw8-2jjFR&amp;controls=0&amp;autoplay=${autoPlay}&amp;start=${offset + YtbControls.__playedSec}`;
+        }
+    }
+</script>
+
+<div class="Iframe">
+    <iframe onload="YtbControls.__onFrameLoaded()" width="724" height="407"  src="https://www.youtube.com/embed/yl-Ms_ek-kE?si=jV1KTgHVw8-2jjFR&amp;controls=0&autoplay=1&start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="Iframe__mask" data-autoplay="1" data-start="20" onclick="YtbControls.__onFrameClick(event)">
+        <a id="Switcher" class="switcher" href="#"></a>
+        <div class="screen glitch">
+            <div class="clock is-off"><span class="time" data-time=""></span></div>
+            <div class="figure"></div>
+            <div class="figure-mask"></div>
+        </div>
+    </div>
+</div>
+
+{% include time.html %}
+
 ## Welcome
 
 Where are you from? What do you do for living? Are you single or married? Are you feeling lonely? Or, you just get better now, but, you still remember that period of hard time you were feeling lonely very much. What's your story? Will you tell it to me?
 
-<img src="/assets/images/a-lonely-girl.png" class="image">
+<img src="https://cdn.midjourney.com/cee7d707-c407-484b-82b2-7b866ec7e689/0_2.webp" class="image">
 
 Welcome!
 
@@ -45,4 +92,4 @@ My Email: zhangxinghai79@gmail.com
 
 ## Alternatively, fill the form to Tell Your Story
 
-<iframe width="724" height="430" frameborder="none" src="http://stories.longloneliness.com/post-html.php?end=longloneliness&lang=en&post=landingpage"></iframe>
+{% include post.html %}
