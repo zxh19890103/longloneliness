@@ -1,6 +1,7 @@
 @import "./fonts";
 
 $bgcolor: rgb(71, 60, 57);
+$bgcolorA: rgba(71, 60, 57, 0.78);
 $maincolor: #fe8801;
 
 html {
@@ -49,7 +50,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 3;
-  background-color: rgba(71, 60, 57, 0.96);
+  background-color: $bgcolorA;
   nav ul {
     font-size: 0.8rem;
     display: flex;
