@@ -50,7 +50,7 @@ _Tips: Click to pause or resume the music playing._
     </div>
 </div>
 
-{% include time.html %}
+{%- include time.html -%}
 
 ## Welcome
 

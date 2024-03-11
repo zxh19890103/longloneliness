@@ -1,12 +1,15 @@
 @import "./fonts";
 
-$bgcolor: rgb(71, 60, 57);
-$bgcolorA: rgba(71, 60, 57, 0.78);
+$bgcolor: rgb(36, 30, 29);
+$bgcolorA: rgba(36, 30, 29, 0.78);
 $maincolor: #fe8801;
 
 html {
-  font: 21px/1.5 "Indie Flower", cursive;
-  // font: 21px/1.5 "Avenir-Next";
+  font: 21px/1.5 "Josefin Slab", serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-style: normal;
   line-height: 1.3rem;
   color: #fff;
 }

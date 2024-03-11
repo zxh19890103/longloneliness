@@ -9,6 +9,7 @@
 
     $(".switcher").addEventListener("click", function (e) {
       e.preventDefault();
+      e.stopPropagation();
       $(".screen").classList.toggle("glitch");
     });
 
