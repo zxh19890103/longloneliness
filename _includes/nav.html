@@ -18,15 +18,9 @@
     <li><a href="/write">Write</a></li>
     <li class="sep">|</li>
     <li>
-      <a target="_blank" onclick="GoUnsafePage(event)" href="javascript:void(0);">
+      <a href="/fail-to-load">
         If you cannot see Stories & Write, click here!
       </a>
     </li>
   </ul>
-  <script>
-    function GoUnsafePage (ev) {
-      const A = ev.target;
-      A.href = `http://longloneliness.com?T=${Date.now()}`;
-    }
-  </script>
 </nav>

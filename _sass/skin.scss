@@ -83,6 +83,7 @@ body {
 }
 
 .Copy {
+  border-top: 1px solid darken($color: rgb(71, 60, 57), $amount: 4);
   padding: 1rem 0 1rem 0;
   text-align: center;
   font-size: 0.86rem;
@@ -111,9 +112,17 @@ h2 {
   margin-top: 3rem;
 }
 
+em {
+  text-decoration: underline;
+}
+
 .image {
+  display: block;
   border-radius: 6px 8px;
-  width: 100%;
+  border: 1px solid #fff;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 iframe {
