@@ -39,7 +39,7 @@ _Tips: Click to pause or resume the music playing._
 </script>
 
 <div class="Iframe">
-    <iframe onload="YtbControls.__onFrameLoaded()" width="724" height="407"  src="https://www.youtube.com/embed/yl-Ms_ek-kE?si=jV1KTgHVw8-2jjFR&amp;controls=0&autoplay=1&start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe onload="YtbControls.__onFrameLoaded()" width="724" height="407"  src="https://www.youtube.com/embed/yl-Ms_ek-kE?si=jV1KTgHVw8-2jjFR&amp;controls=0&amp;autoplay=1&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div class="Iframe__mask" data-autoplay="1" data-start="20" onclick="YtbControls.__onFrameClick(event)">
         <a id="Switcher" class="switcher" href="#"></a>
         <div class="screen glitch">
