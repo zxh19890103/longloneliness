@@ -39,8 +39,8 @@ _Tips: Click to pause or resume the music playing._
 </script>
 
 <div class="Iframe">
-    <iframe onload="YtbControls.__onFrameLoaded()" width="724" height="407"  src="https://www.youtube.com/embed/yl-Ms_ek-kE?si=jV1KTgHVw8-2jjFR&amp;controls=0&amp;autoplay=1&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="Iframe__mask" data-autoplay="1" data-start="20" onclick="YtbControls.__onFrameClick(event)">
+    <iframe onload="YtbControls.__onFrameLoaded()" width="724" height="407"  src="https://www.youtube.com/embed/yl-Ms_ek-kE?si=jV1KTgHVw8-2jjFR&amp;controls=0&amp;autoplay=1&amp;start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="Iframe__mask" data-autoplay="1" data-start="50" onclick="YtbControls.__onFrameClick(event)">
         <a id="Switcher" class="switcher" href="#"></a>
         <div class="screen glitch">
             <div class="clock is-off"><span class="time" data-time=""></span></div>
@@ -56,7 +56,7 @@ _Tips: Click to pause or resume the music playing._
 
 Where are you from? What do you do for living? Are you single or married? Are you feeling lonely? Or, you just get better now, but, you still remember that period of hard time you were feeling lonely very much. What's your story? Will you tell it to me?
 
-<img src="https://cdn.midjourney.com/cee7d707-c407-484b-82b2-7b866ec7e689/0_2.webp" class="image">
+<img src="https://cdn.midjourney.com/cb89a99b-eb33-44ed-8ef2-a274479e170c/0_1.webp" class="image">
 
 Welcome!
 
